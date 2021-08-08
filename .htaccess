@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^replacewithyoursite.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.replacewithyoursite.com$
+RewriteCond %{REQUEST_URI} !subfolder/
+RewriteRule (.*) /subfolder/$1 [L]
