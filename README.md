@@ -1,0 +1,1 @@
+# .htaccess-rewrite-index-to-directory
